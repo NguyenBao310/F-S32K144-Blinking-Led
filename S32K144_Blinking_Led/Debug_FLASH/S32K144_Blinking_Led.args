@@ -1,0 +1,13 @@
+-T
+"E:/Github/F-S32K144-Blinking-Led/S32K144_Blinking_Led/Project_Settings/Linker_Files/S32K144_64_flash.ld"
+-Wl,-Map,"S32K144_Blinking_Led.map"
+-Xlinker
+--gc-sections
+-n
+-mcpu=cortex-m4
+-specs=rdimon.specs
+"./Project_Settings/Startup_Code/startup.o"
+"./Project_Settings/Startup_Code/startup_S32K144.o"
+"./Project_Settings/Startup_Code/system_S32K144.o"
+"./src/S32K144_Blinking_Led.o"
+"./src/main.o"

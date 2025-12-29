@@ -1,0 +1,7 @@
+-c
+-I"E:/Github/F-S32K144-Blinking-Led/S32K144_Blinking_Led/include"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-specs=rdimon.specs
